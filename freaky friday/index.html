@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FREAKY FRIDAY</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" />
   <body>
-    <header>TESTERN</header>
+    <header>TESTERN - U choose, we test</header>
     <div class="nav-bar">
       <ul class="nav-bar">
-
-        <li><a href="#topp"></a><button type="button" class="menu-button">HOME</button></li>
-        <li><a href="#top10"></a><button type="button" class="menu-button">TOP10</button></li>
-        <li>
-          <button type="button" class="menu-button">TASTE OF THE YEAR</button>
-        </li>
-        <li>
-          <button type="button" class="menu-button">CONTACT INFORMATION</button>
+        <li><a href="#home" type="button" class="button">HOME</a></li>
+        <li><a href="#top10" type="button" class="button">TOP 10</a></li>
+        <li><a href="#tasteoftheyear" type="button" class="button">TASTE OF THE YEAR</a></li>
+        <li><a href="#contactus" type="button" class="button">CONTACT US</a></li>
         </li>
       </ul>
     </div>
@@ -23,15 +21,15 @@
     
     <section>
         
-      <div class="bilde-header">
+      <div class="bilde-header" id="home">
         <img
           class="img1"
           src="https://www.premiumbrands.sk/wp-content/uploads/2020/09/HEADER-rozvoz-1.jpg"
         />
-        />
       </div>
     </section>
 
+    <!-- beskrivelse på hva man skal teste denne gangen -->
     <article>
         <section>
           <div class="box" id="topp">
@@ -52,7 +50,6 @@
         </section>
       </article>
   
-      <section class="footer" id="footer">
   
     <section class="top10">
       <div class="box" id="top10">
@@ -63,7 +60,7 @@
         <p>2. FOCUS4 LEGEND SODA</p>
         <p>3. FOCUS3 RASPBERRY BLAST</p>
         <p>4. FERSKEN</p>
-        5. BLUEBERRY
+        <p>5. BLUEBERRY</p>
         <p>6. CARIBBEAN</p>
         <p>7. ICE SODA</p>
         <p>8. LIMON</p>
@@ -92,12 +89,15 @@
       </section>
     </article>
 
+    <!-- brukt samme section oppdeling på, nocco, top10, taste of the year  -->
+
+    
     <section class="footer" id="footer">
 
 
         <footer>
                 
-                <div class="left-box id=footer">
+                <div class="left-box" id="contactus">
                     <h2>about us</h2>
                     <div class="content">
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi quasi rem amet, ducimus illo dolorum corrupti aliquid ipsam velit dolorem, natus adipisci animi voluptas optio architecto praesentium iusto exercitationem!</P>
@@ -114,7 +114,7 @@
                             <input type="email" required >
                             </div>
                             <div class="msg"></div>
-                            <div class="text">Note*</div>
+                            <div class="text">What do you want us to test next time?*</div>
                             <textarea  cols="20" rows="2" required></textarea>
                             <div class="btn">
                                 <button>send</button>

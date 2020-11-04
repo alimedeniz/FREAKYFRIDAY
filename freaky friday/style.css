@@ -30,6 +30,7 @@ header {
   text-decoration: none;
   position: sticky;
   position: fixed;
+  z-index: 9999;
 }
 .nav-bar li {
   margin: 1%;
@@ -41,7 +42,7 @@ li button {
   color: red;
   outline: none;
 }
-.menu-button {
+.button {
   border: none;
   font-family: "Hind", sans-serif;
   background: transparent;
@@ -49,7 +50,7 @@ li button {
   font-size: 15px;
   text-decoration: none;
 }
-.menu-button:hover {
+.button:hover {
   cursor: pointer;
   border-bottom: 1px solid white;
   font-size: 25px;
@@ -99,4 +100,5 @@ footer {
   border-top: 1px solid black;
   background-color: #191919;
   color: white;
+  width: 100%;
 }
