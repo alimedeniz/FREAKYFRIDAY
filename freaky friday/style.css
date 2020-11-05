@@ -13,10 +13,10 @@ header {
   font-size: 30px;
   padding-top: 10px;
   text-decoration: none;
-  display: flex;
-  align-items: center;
   width: 100%;
+  top: 0;
   position: sticky;
+  background: #0083b0;
 }
 .nav-bar {
   list-style: none;
@@ -29,7 +29,6 @@ header {
   height: 50px;
   text-decoration: none;
   position: sticky;
-  position: fixed;
   z-index: 9999;
 }
 .nav-bar li {
